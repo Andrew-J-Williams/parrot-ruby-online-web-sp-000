@@ -2,6 +2,7 @@
 # returns the phrase
 
 
-def parrot
-
-end   
+def parrot(sound = "Squawk")
+  puts sound
+  return sound
+end
